@@ -13,9 +13,7 @@ namespace Baraja2_juangonzales.Data
         {
 
         }
-
-        // Agregar los modelos a utilizar
-        public DbSet<Naipe> Naipe { get; set; }
+        public DbSet<Baraja2_juangonzales.Models.Naipe> Naipe { get; set; }
 
     }
 }
